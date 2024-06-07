@@ -39,13 +39,19 @@ In this project, the VADER (Valence Aware Dictionary and sEntiment Reasoner) too
 **Sentiment Scores: VADER provides four sentiment scores:**
 
 neg: Negative sentiment score
+
 neu: Neutral sentiment score
+
 pos: Positive sentiment score
+
 compound: A normalized, weighted composite score.
-Sentiment Label: Based on the compound score, a sentiment label is assigned:
+
+**Sentiment Label: Based on the compound score, a sentiment label is assigned:**
 
 Positive (compound >= 0.05)
+
 Neutral (-0.05 < compound < 0.05)
+
 Negative (compound <= -0.05)
 
 **When to Use Virtual Environments**
